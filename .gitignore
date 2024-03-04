@@ -66,13 +66,5 @@ dkms.conf
 # Vim things
 tags
 
-# Allow steamworks redist
-!engine/dep/steamworks/sdk/redistributable_bin/*/*
-!engine/dep/steamworks/sdk/redistributable_bin/*
-# Allow mimalloc redist
-!core/dep/mimalloc/bin/*
-# Ignore asset files, they should be managed in their own repo
-assets/
-
 # Ignore vim session files
 Session.vim
